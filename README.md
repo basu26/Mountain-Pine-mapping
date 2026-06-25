@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-
 Research code accompanying the manuscript on Random Forest mapping of mountain pine
 (*Pinus mugo*) from Sentinel-2 and UAS imagery in the Bavarian Alps.
 
