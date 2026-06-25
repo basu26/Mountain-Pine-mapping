@@ -1,4 +1,4 @@
-# Pinus mugo mapping in the Bavarian Alps — analysis code
+# Pinus mugo mapping in southern Germany, analysis code
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 <!-- After cutting the Zenodo release, replace ZENODO_CODE_DOI below with the minted software DOI -->
