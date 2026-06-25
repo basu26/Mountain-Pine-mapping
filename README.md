@@ -1,8 +1,7 @@
 # Pinus mugo mapping in southern Germany, analysis code
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-<!-- After cutting the Zenodo release, replace ZENODO_CODE_DOI below with the minted software DOI -->
-[![DOI](https://zenodo.org/badge/DOI/ZENODO_CODE_DOI.svg)]([https://doi.org/ZENODO_CODE_DOI](https://doi.org/10.5281/zenodo.19691239))
+
 
 Research code accompanying the manuscript on Random Forest mapping of mountain pine
 (*Pinus mugo*) from Sentinel-2 and UAS imagery in the Bavarian Alps.
