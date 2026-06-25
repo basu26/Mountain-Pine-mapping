@@ -1,0 +1,29 @@
+# Conda environment for the Pinus mugo analysis (Python parts).
+# Versions pinned to those used for the published analysis (Python 3.13, Windows).
+#
+# The GLCM step is in R (scripts/01_glcm_textures.R) and requires the R packages:
+#     glcm, raster, stringr
+# The GEE export notebook (00) additionally requires an authenticated Earth Engine account.
+
+name: pinus-mugo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - numpy==2.1.3
+      - pandas==2.2.3
+      - scipy==1.14.1
+      - scikit-learn==1.7.2
+      - rasterio==1.4.2
+      - geopandas==1.0.1
+      - shapely==2.0.6
+      - pyproj==3.7.0
+      - pyogrio==0.10.0
+      - matplotlib==3.9.2
+      - seaborn==0.13.2
+      - joblib==1.5.2
+      - openpyxl==3.1.5
+      - earthengine-api==1.4.2   # notebook 00 only
+      - geemap==0.35.1           # notebook 00 only
