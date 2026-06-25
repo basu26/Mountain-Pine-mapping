@@ -27,17 +27,6 @@ Availability statement). This repository contains the code that produces them.
 | `notebooks/04_feature_selection_leakage_free.ipynb` | Feature selection performed within each CV fold; produces `selected_features_final.csv` | Methods — Feature selection |
 | `notebooks/05_spatial_validation.ipynb` | Polygon-grouped split (base method) + spatial-block CV sweep, 1–25 km | Methods — Spatially-independent validation |
 
-## Which files produce the reported numbers
-
-- **Reported model accuracy / uncertainty:** notebooks **04** (feature selection) and
-  **05** (spatial validation). These are the numbers in the manuscript.
-- **Deployed yearly maps:** notebook **03** trains the Random Forest on the 30-feature set
-  fixed by notebook 04 and classifies each mosaic. The in-notebook training accuracy in 03
-  is **not** the reported performance — it is only the fit used to generate the rasters.
-
-This separation is deliberate: selection and validation are evaluated within
-cross-validation and with spatially independent splits; deployment uses the committed
-feature list.
 
 ## Order of execution
 
