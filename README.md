@@ -1,4 +1,4 @@
-# Pinus mugo mapping in the Bavarian Alps
+# Pinus mugo mapping in southern Germany
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
